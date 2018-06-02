@@ -1,3 +1,97 @@
 <resources>
     <string name="app_name">warehouse</string>
+
+
+    <!-- Label for the item's brand if the brand is unknown [CHAR LIMIT=20] -->
+    <string name="unknown_brand">Unknown brand</string>
+    <!-- Label for overflow menu option that inserts fake item data into the app [CHAR LIMIT=20] -->
+    <string name="action_insert_dummy_data">Insert Dummy Data</string>
+
+    <!-- Label for overflow menu option that deletes all item data in the app [CHAR LIMIT=20] -->
+    <string name="action_delete_all_entries">Delete All items</string>
+
+    <!-- Title text for the empty view, which describes the empty dog house image [CHAR LIMIT=50] -->
+    <string name="empty_view_title_text">No items in warehouse yet...</string>
+
+    <!-- Subtitle text for the empty view that prompts the user to add a item [CHAR LIMIT=50] -->
+    <string name="empty_view_subtitle_text">Get started by adding a item</string>
+
+    <!-- Title for the activity to add a new item [CHAR LIMIT=20] -->
+    <string name="editor_activity_title_new_item">Add a item</string>
+
+    <!-- Title for the activity to edit an existing item [CHAR LIMIT=20] -->
+    <string name="editor_activity_title_edit_item">Edit item</string>
+
+    <!-- Label for editor menu option to save item and leave editor [CHAR LIMIT=20] -->
+    <string name="action_save">Save</string>
+
+    <!-- Label for editor overflow menu option that deletes the current item [CHAR LIMIT=20] -->
+    <string name="action_delete">Delete</string>
+
+    <!-- Toast message in editor when new item has been successfully inserted [CHAR LIMIT=NONE] -->
+    <string name="editor_insert_item_successful">item saved</string>
+
+    <!-- Toast message in editor when new item has failed to be inserted [CHAR LIMIT=NONE] -->
+    <string name="editor_insert_item_failed">Error with saving item</string>
+
+    <!-- Toast message in editor when current item was successfully updated [CHAR LIMIT=NONE] -->
+    <string name="editor_update_item_successful">Item updated</string>
+
+    <!-- Toast message in editor when current item has failed to be updated [CHAR LIMIT=NONE] -->
+    <string name="editor_update_item_failed">Error with updating item</string>
+
+    <!-- Dialog message when user is leaving editor but hasn't saved changes [CHAR LIMIT=NONE] -->
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+
+    <!-- Dialog button text for the option to discard a user's changes [CHAR LIMIT=20] -->
+    <string name="discard">Discard</string>
+
+    <!-- Dialog button text for the option to keep editing the current item [CHAR LIMIT=20] -->
+    <string name="keep_editing">Keep Editing</string>
+
+    <!-- Toast message in editor when current item was successfully deleted [CHAR LIMIT=NONE] -->
+    <string name="editor_delete_item_successful">Item deleted</string>
+
+    <!-- Toast message in editor when current item has failed to be deleted [CHAR LIMIT=NONE] -->
+    <string name="editor_delete_item_failed">Error with deleting item</string>
+
+    <!-- Dialog message to ask the user to confirm deleting the current item [CHAR LIMIT=NONE] -->
+    <string name="delete_dialog_msg">Delete this item?</string>
+
+    <!-- Dialog button text for the option to confirm deleting the current item [CHAR LIMIT=20] -->
+    <string name="delete">Delete</string>
+
+    <!-- Dialog button text for the option to cancel deletion of the current item [CHAR LIMIT=20] -->
+    <string name="cancel">Cancel</string>
+
+    <!-- Label for overview category of attributes in the editor [CHAR LIMIT=30] -->
+    <string name="category_overview">Description</string>
+
+    <!-- Label for gender information in the editor [CHAR LIMIT=30] -->
+    <string name="category_item_type1">Item type</string>
+
+    <!-- Label for measurement information in the editor [CHAR LIMIT=30] -->
+    <string name="category_amount">Amount</string>
+
+    <!-- Text hint for name field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_item_overview">Description</string>
+
+    <!-- Text hint for brand field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_item_brand">Brand</string>
+
+    <!-- Text hint for name field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_item_amount">Amount</string>
+
+    <!-- Units for weight of the item (kilograms) [CHAR LIMIT=5] -->
+    <string name="unit_item_amount"> p.</string>
+
+    <!-- Label for dropdown menu option  -->
+    <string name="item_type_tv">TV</string>
+
+    <!-- Label for dropdown menu option -->
+    <string name="item_type_phone">Phone</string>
+
+    <!-- Label for dropdown menu option  -->
+    <string name="item_type_laptop">Laptop</string>
+
 </resources>

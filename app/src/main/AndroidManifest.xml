@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.elbrus.warehouse.warehouse">
+    package="com.elbrus.warehouse.catalog">
 
     <application
         android:allowBackup="true"
@@ -9,13 +9,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name="com.elbrus.warehouse.catalog.CatalogActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="com.elbrus.warehouse.catalog.EditorActivity"></activity>
+        <provider
+            android:name=".db.ItemProvider"
+            android:authorities="com.elbrus.warehouse.catalog"
+            android:exported="false" />
     </application>
 
 </manifest>
